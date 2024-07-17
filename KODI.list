@@ -10,12 +10,12 @@ DOMAIN-SUFFIX,appcues.net
 
 DOMAIN-SUFFIX,fanart.tv
 DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,ftp.cc.uoc.gr
 DOMAIN-SUFFIX,ftp.fau.de
 DOMAIN-SUFFIX,ftp.heanet.ie
 DOMAIN-SUFFIX,ftp.snt.utwente.nl
 DOMAIN-SUFFIX,ftp.osuosl.org
-DOMAIN-SUFFIX,nluug.nl
 DOMAIN-SUFFIX,ftp.halifax.rwth-aachen.de
 DOMAIN-SUFFIX,ftp.snt.utwente.nl
 DOMAIN-SUFFIX,ftp.snt.utwente.nl
@@ -35,9 +35,13 @@ DOMAIN-SUFFIX,mirror.hro.nl
 DOMAIN-SUFFIX,mirrorservice.org
 DOMAIN-SUFFIX,mirror.netcologne.de
 DOMAIN-SUFFIX,mirror.karneval.cz
+DOMAIN-SUFFIX,mirror.umd.edu
+DOMAIN-SUFFIX,nluug.nl
 DOMAIN-SUFFIX,kodi.mirror.garr.it
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-KEYWORD,opensubtitles
+
 
 
 
