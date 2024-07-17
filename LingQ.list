@@ -1,13 +1,16 @@
 DOMAIN-KEYWORD,lingq
-DOMAIN-KEYWORD,clarity
+DOMAIN-KEYWORD,iterable
 DOMAIN-SUFFIX,appcues.net
+DOMAIN-SUFFIX,appcues.com
 DOMAIN-SUFFIX,api.iterable.com
 DOMAIN-SUFFIX,amplitude.com
+DOMAIN-KEYWORD,clarity
+DOMAIN-SUFFIX,clevertap-prod.com
+DOMAIN-SUFFIX,dealctr.com
 DOMAIN-SUFFIX,ravenjs.com
 DOMAIN-SUFFIX,pepperjam.com
-DOMAIN-SUFFIX,clevertap-prod.com
-DOMAIN-SUFFIX,appcues.com
-DOMAIN-SUFFIX,dealctr.com
+DOMAIN-SUFFIX,pepperjam.com
 DOMAIN-SUFFIX,groovehq.com
+DOMAIN-SUFFIX,gstatic.com
 
 
