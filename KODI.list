@@ -5,7 +5,6 @@ DOMAIN-KEYWORD,themoviedb
 DOMAIN-KEYWORD,themoviedb
 DOMAIN-KEYWORD,opensubtitles
 
-
 DOMAIN-SUFFIX,garr.it
 DOMAIN-SUFFIX,linorg.usp.br
 DOMAIN-SUFFIX,api.listenbrainz.org
@@ -20,7 +19,7 @@ DOMAIN-SUFFIX,ftp.snt.utwente.nl
 DOMAIN-SUFFIX,ftp.osuosl.org
 DOMAIN-SUFFIX,ftp.halifax.rwth-aachen.de
 DOMAIN-SUFFIX,ftp.snt.utwente.nl
-DOMAIN-SUFFIX,ftp.snt.utwente.nl
+DOMAIN-SUFFIX,ftp2.nluug.nl
 DOMAIN-SUFFIX,linorg.usp.br
 DOMAIN-SUFFIX,mirror.accum.se
 DOMAIN-SUFFIX,mirrors.kodi.tv
@@ -42,7 +41,6 @@ DOMAIN-SUFFIX,nluug.nl
 DOMAIN-SUFFIX,kodi.mirror.garr.it
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,image.tmdb.org
-
 
 
 
