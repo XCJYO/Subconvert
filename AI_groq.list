@@ -1,0 +1,13 @@
+
+# NAME: groq
+# AUTHOR: XCJYO
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,api-iam.intercom.io
+DOMAIN-SUFFIX,api.hubapi.com
+DOMAIN-SUFFIX,chat.groq.com
+DOMAIN-SUFFIX,cta-service-cms2.hubspot.com
+DOMAIN-SUFFIX,forms.hscollectedforms.net
+DOMAIN-SUFFIX,perf-nal.hsforms.com
+DOMAIN-SUFFIX,nexus-websocket-a.intercom.io
