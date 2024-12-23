@@ -1,1 +1,9 @@
+# NAME: groq
+# AUTHOR: XCJYO
+
+
 DOMAIN-SUFFIX,fastly-edge.com
+# infuse相关，注意放置广告拦截前
+# https://blog.csdn.net/csdn_life18/article/details/127236572
+DOMAIN-SUFFIX,bugsnag.com
+DOMAIN-SUFFIX,flurry.com
