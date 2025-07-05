@@ -1,4 +1,4 @@
-DOMAIN,ad.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-KEYWORD,google
-DOMAIN-REGEX,^abc.*com
+#DOMAIN,ad.com
+#DOMAIN-SUFFIX,google.com
+#DOMAIN-KEYWORD,google
+#DOMAIN-REGEX,^abc.*com
