@@ -1,14 +1,9 @@
 
 proxy-groups:
-
-
-
-
   - name: 📹 油管视频
     type: select
     proxies:
       - ♻️ 自动选择
-      - 💦静态代理
       - 🇸🇬 狮城
       - 🇭🇰 香港
       - 🇨🇳 台湾
@@ -16,17 +11,13 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇰🇷 韩国
       - 🇬🇧 英国
-      - 🚀 手动切换
       - DIRECT
-
-
 
 
   - name: 🌍 国外媒体
     type: select
     proxies:
       - ♻️ 自动选择
-      - 💦静态代理
       - 🇭🇰 香港
       - 🇨🇳 台湾
       - 🇸🇬 狮城
@@ -34,22 +25,21 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇰🇷 韩国
       - 🇬🇧 英国
-      - 🚀 手动切换
       - DIRECT
-
-
 
 
   - name: ⚡ 国内下载
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+
+
+
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
+
   - name: 🎥 奈飞视频
     type: select
     include-all: true
@@ -58,6 +48,7 @@ proxy-groups:
     type: select
     include-all: true
     filter: (游戏|game)
+
 
 
 
