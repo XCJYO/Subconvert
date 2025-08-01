@@ -218,7 +218,7 @@ proxy-groups:
       - 🚀 手动切换
 
 
-  - name: 🎥 奈飞
+  - name: 🎥 奈飞视频
     type: select
     include-all: true
     filter: (NF|奈飞|解锁|Netflix|NETFLIX|Media)
