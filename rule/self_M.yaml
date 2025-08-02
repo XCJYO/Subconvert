@@ -230,49 +230,49 @@ proxy-groups:
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(台|新北|彰化|TW|Taiwan)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(台|新北|彰化|TW|Taiwan)
   - name: 🇭🇰 香港
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(港|HK|Hong Kong)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(港|HK|Hong Kong)
   - name: 🇸🇬 狮城
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(新加坡|坡|狮城|SG|Singapore)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(新加坡|坡|狮城|SG|Singapore)
   - name: 🇺🇲 美国
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 150
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
   - name: 🇬🇧 英国
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(UK|英国|伦敦)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(UK|英国|伦敦)
   - name: 🇯🇵 日本
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
   - name: 🇰🇷 韩国
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
     include-all: true
-    filter: (?!.*(游戏|[2-9]x[0-9])|IEPL)(KR|Korea|KOR|首尔|韩|韓)
+    filter: (?!.*(游戏|[2-9]x[0-9]|IEPL))(KR|Korea|KOR|首尔|韩|韓)
 
 
   
