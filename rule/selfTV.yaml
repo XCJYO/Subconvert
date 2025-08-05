@@ -130,7 +130,6 @@ rules:
   - RULE-SET,Microsoft_acl4ssr,🌍 国外媒体
   - RULE-SET,OneDrive_acl4ssr,🌍 国外媒体
   - RULE-SET,Bing_acl4ssr,🌍 国外媒体
-  - RULE-SET,Telegram,📲 电报消息
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Disney,🎥 奈飞视频
   - RULE-SET,Google,🌍 国外媒体
