@@ -172,7 +172,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 💦静态代理
-      - name: ✈️ 中转专线
+      - ✈️ 中转专线
     include-all: true
     filter: '(?!.*(剩余|重置|美国|韩国|日本|新加坡|🇭🇰|🇸🇬|🇺🇸|🇯🇵|🇰🇷|NF|奈飞|解锁|Netflix|NETFLIX|Media|游戏))'
 
