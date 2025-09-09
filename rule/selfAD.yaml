@@ -19,6 +19,8 @@ proxy-groups:
     type: select
     include-all: true
     filter: '^(.*静态)'
+
+
   - name: ✈️ 中转专线
     type: select
     proxies:
@@ -170,8 +172,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - 💦静态代理
+      - name: ✈️ 中转专线
     include-all: true
-    filter: '^(?!.*(剩余|重置|🇹🇼|🇭🇰|🇸🇬|🇺🇸|🇯🇵|🇰🇷|NF|奈飞|解锁|Netflix|NETFLIX|Media|游戏)).*$'
+    filter: '^(?!.*(剩余|重置|美国|韩国|日本|新加坡|🇭🇰|🇸🇬|🇺🇸|🇯🇵|🇰🇷|NF|奈飞|解锁|Netflix|NETFLIX|Media|游戏)).*$'
 
 
 
