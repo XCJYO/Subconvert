@@ -29,32 +29,6 @@ proxy-groups:
     include-all: true
     filter: '.*IEPL.*$|^(.*[2-9]x[0-9])'
 
-  
-  - name: 💰 WEB3
-    type: select
-    proxies:
-      - 🇺🇲 美国
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇰🇷 韩国
-      - 🇬🇧 英国
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🚀 手动切换
-      - DIRECT
-
-
-  - name: 🔮 AI
-    type: select
-    proxies:
-      - 💦静态代理
-      - 🇺🇲 美国
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇰🇷 韩国
-      - 🇬🇧 英国
-      - 🚀 手动切换
-      - DIRECT
 
 
   - name: 🎮 游戏平台
@@ -103,38 +77,7 @@ proxy-groups:
       - DIRECT
 
 
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 💦静态代理
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇺🇲 美国
-      - 🇰🇷 韩国
-      - 🇬🇧 英国
-      - 🚀 手动切换
-      - DIRECT
-
-
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 💦静态代理
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇺🇲 美国
-      - 🇰🇷 韩国
-      - 🇬🇧 英国
-      - 🚀 手动切换
-      - DIRECT
-
-
+    
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -151,20 +94,20 @@ proxy-groups:
       - DIRECT
 
 
-  - name: 🎡 远程控制
+  - name: 🌍 国外媒体
     type: select
     proxies:
-      - 🇯🇵 日本
-      - ♻️ 自动选择
       - 💦静态代理
       - 🇭🇰 香港
       - 🇨🇳 台湾
-      - 🇸🇬 狮城
       - 🇺🇲 美国
+      - 🇸🇬 狮城
+      - 🇯🇵 日本
       - 🇰🇷 韩国
       - 🇬🇧 英国
       - 🚀 手动切换
       - DIRECT
+
 
   
   - name: 🚀 手动切换
@@ -189,7 +132,7 @@ proxy-groups:
       - 🇰🇷 韩国
       - 🚀 手动切换
 
-  
+
 
   - name: 🌍 国内媒体
     type: select
@@ -286,7 +229,7 @@ proxy-groups:
     filter: (?!.*(游戏|静态|[2-9]x[0-9]|IEPL))(KR|Korea|KOR|首尔|韩|韓)
 
 
-  
+
 # Clash Rule Providers (Block Style)
 # Generated from acl4SSR custom config
 rules:
@@ -314,23 +257,14 @@ rules:
   - RULE-SET,PlayStation,🎮 游戏平台 # Duplicate from source
   - RULE-SET,Origin,🎮 游戏平台
   - RULE-SET,Nintendo,🎮 游戏平台
-  - RULE-SET,AI_perplexity,🔮 AI
-  - RULE-SET,AI_groq,🔮 AI
-  - RULE-SET,AI_aistudio_geogle,🔮 AI
-  - RULE-SET,OpenAI_bm7,🔮 AI
-  - RULE-SET,BardAI,🔮 AI
-  - RULE-SET,OpenAI_acl4ssr,🔮 AI
-  - RULE-SET,Claude,🔮 AI
-  - RULE-SET,Gemini,🔮 AI
-  - RULE-SET,Binance,💰 WEB3
-  - RULE-SET,OKX,💰 WEB3
-  - RULE-SET,Axiom,💰 WEB3
-  - RULE-SET,Crypto,💰 WEB3
-  - RULE-SET,Cryptocurrency,💰 WEB3
-  - RULE-SET,gmgn,💰 WEB3
-  - RULE-SET,bybit,💰 WEB3
-  - RULE-SET,TeamViewer,🎡 远程控制
-  - RULE-SET,rustDesk,🎡 远程控制
+  - RULE-SET,AI_perplexity,🌍 国外媒体
+  - RULE-SET,AI_groq,🌍 国外媒体
+  - RULE-SET,AI_aistudio_geogle,🌍 国外媒体
+  - RULE-SET,OpenAI_bm7,🌍 国外媒体
+  - RULE-SET,BardAI,🌍 国外媒体
+  - RULE-SET,OpenAI_acl4ssr,🌍 国外媒体
+  - RULE-SET,Claude,🌍 国外媒体
+  - RULE-SET,Gemini,🌍 国外媒体
   - RULE-SET,AppleTV,🍎 苹果服务
   - RULE-SET,AppleMusic,🍎 苹果服务
   - RULE-SET,iCloud,🍎 苹果服务
@@ -379,7 +313,8 @@ rules:
   - RULE-SET,Hijacking,🛑 广告拦截
   - RULE-SET,ZhihuAds,🛑 广告拦截
   - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+  - MATCH,🌍 国外媒体
+
 
 rule-providers:
   # 🎯 全球直连 (Lan)
@@ -542,7 +477,7 @@ rule-providers:
     interval: 86400
     format: text
 
-  # 🔮 AI
+  # 🌍 国外媒体
   AI_perplexity:
     type: http
     behavior: classical
@@ -600,72 +535,6 @@ rule-providers:
     interval: 86400
     format: yaml
 
-  # 💰 WEB3
-  Binance:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance/Binance.list"
-    path: ./ruleset/Binance.list
-    interval: 86400
-    format: text
-  OKX:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/XCJYO/Subconvert/master/OKX.list"
-    path: ./ruleset/OKX.list
-    interval: 86400
-    format: text
-  Axiom:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/XCJYO/Subconvert/master/Axiom.list"
-    path: ./ruleset/Axiom.list
-    interval: 86400
-    format: text
-  Crypto:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list"
-    path: ./ruleset/Crypto.list
-    interval: 86400
-    format: text
-  Cryptocurrency:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cryptocurrency/Cryptocurrency.list"
-    path: ./ruleset/Cryptocurrency.list
-    interval: 86400
-    format: text
-  gmgn:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/XCJYO/Subconvert/master/gmgn.list"
-    path: ./ruleset/gmgn.list
-    interval: 86400
-    format: text
-  bybit:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/XCJYO/Subconvert/master/bybit.list"
-    path: ./ruleset/bybit.list
-    interval: 86400
-    format: text
-
-  # 🎡 远程控制
-  TeamViewer:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer/TeamViewer.list"
-    path: ./ruleset/TeamViewer.list
-    interval: 86400
-    format: text
-  rustDesk:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/XCJYO/Subconvert/master/rustDesk.list"
-    path: ./ruleset/rustDesk.list
-    interval: 86400
-    format: text
 
   # 🍎 苹果服务
   AppleTV:
