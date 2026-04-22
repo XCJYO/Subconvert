@@ -5,7 +5,7 @@ proxy-groups:
     proxies:
       - DIRECT
     include-all: true
-    filter: '(IEPL$|[2-9]x[0-9]|dmit|高速|静态|家庭)'
+    filter: '(IEPL$|[2-9]x[0-9]|dmit|高速|bandwagonhost|搬瓦工|静态|家庭)'
 
 
 
