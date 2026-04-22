@@ -8,29 +8,6 @@ proxy-groups:
     filter: '(IEPL$|[2-9]x[0-9]|dmit|高速|静态|家庭)'
 
 
-  - name: ✈️ 中转专线
-    type: select
-    proxies:
-      - 🚀 手动切换
-      - DIRECT
-    include-all: true
-    filter: '.*IEPL.*$|^(.*[2-9]x[0-9])|dmit|高速'
-
-
-
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - 🇺🇲 美国
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇰🇷 韩国
-      - 🇬🇧 英国
-
 
   - name: 📹 油管视频
     type: select
@@ -96,14 +73,19 @@ proxy-groups:
       - DIRECT
 
 
-  
-  - name: 🚀 手动切换
+  - name: 🎮 游戏平台
     type: select
     proxies:
       - DIRECT
-      - 💦静态代理
-    include-all: true
-    filter: '^(?!.*(剩余|重置|NF|奈飞|解锁|Netflix|NETFLIX|Media|游戏)).*'
+      - 🚀 手动切换
+      - 🇺🇲 美国
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 狮城
+      - 🇯🇵 日本
+      - 🇰🇷 韩国
+      - 🇬🇧 英国
+  
 
 
 
@@ -119,6 +101,19 @@ proxy-groups:
       - 🇰🇷 韩国
       - 🚀 手动切换
 
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - DIRECT
+      - 💦静态代理
+    include-all: true
+    filter: '^(?!.*(剩余|重置|NF|奈飞|解锁|Netflix|NETFLIX|Media|游戏)).*'
+
+  - name: 🎥 奈飞视频
+    type: select
+    include-all: true
+    filter: (NF|奈飞|解锁|Netflix|NETFLIX|Media)
+
 
 
   - name: 🌍 国内网络
@@ -132,7 +127,6 @@ proxy-groups:
       - 🚀 手动切换
 
 
-  
   - name: 🛑 广告拦截
     type: select
     proxies:
@@ -149,11 +143,6 @@ proxy-groups:
       - DIRECT
       - 🚀 手动切换
 
-
-  - name: 🎥 奈飞视频
-    type: select
-    include-all: true
-    filter: (NF|奈飞|解锁|Netflix|NETFLIX|Media)
 
 
 
