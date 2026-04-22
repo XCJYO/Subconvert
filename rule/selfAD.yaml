@@ -257,14 +257,14 @@ rules:
   - RULE-SET,PlayStation,🎮 游戏平台 # Duplicate from source
   - RULE-SET,Origin,🎮 游戏平台
   - RULE-SET,Nintendo,🎮 游戏平台
-  - RULE-SET,AI_perplexity,🌍 国外媒体
-  - RULE-SET,AI_groq,🌍 国外媒体
-  - RULE-SET,AI_aistudio_geogle,🌍 国外媒体
-  - RULE-SET,OpenAI_bm7,🌍 国外媒体
-  - RULE-SET,BardAI,🌍 国外媒体
-  - RULE-SET,OpenAI_acl4ssr,🌍 国外媒体
-  - RULE-SET,Claude,🌍 国外媒体
-  - RULE-SET,Gemini,🌍 国外媒体
+  - RULE-SET,AI_perplexity,🌍 国外网络
+  - RULE-SET,AI_groq,🌍 国外网络
+  - RULE-SET,AI_aistudio_geogle,🌍 国外网络
+  - RULE-SET,OpenAI_bm7,🌍 国外网络
+  - RULE-SET,BardAI,🌍 国外网络
+  - RULE-SET,OpenAI_acl4ssr,🌍 国外网络
+  - RULE-SET,Claude,🌍 国外网络
+  - RULE-SET,Gemini,🌍 国外网络
   - RULE-SET,AppleTV,🍎 苹果服务
   - RULE-SET,AppleMusic,🍎 苹果服务
   - RULE-SET,iCloud,🍎 苹果服务
@@ -283,37 +283,37 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Disney,🎥 奈飞视频
   - RULE-SET,Speedtest,🚀 手动切换
-  - RULE-SET,Google,🌍 国外媒体
-  - RULE-SET,Self,🌍 国外媒体
-  - RULE-SET,Developer,🌍 国外媒体
-  - RULE-SET,LingQ,🌍 国外媒体
-  - RULE-SET,GitHub,🌍 国外媒体
-  - RULE-SET,Twitter,🌍 国外媒体
-  - RULE-SET,Cloudflare,🌍 国外媒体
-  - RULE-SET,Amazon,🌍 国外媒体
-  - RULE-SET,Facebook,🌍 国外媒体
-  - RULE-SET,TikTok,🌍 国外媒体
-  - RULE-SET,Instagram,🌍 国外媒体
-  - RULE-SET,Jetbrains,🌍 国外媒体
-  - RULE-SET,Spotify,🌍 国外媒体
-  - RULE-SET,PayPal,🌍 国外媒体
-  - RULE-SET,Discord,🌍 国外媒体
-  - RULE-SET,BBC,🌍 国外媒体
-  - RULE-SET,KODI,🌍 国外媒体
-  - RULE-SET,portablesApps,🌍 国外媒体
-  - RULE-SET,kaspersky,🌍 国外媒体
-  - RULE-SET,GlobalMedia,🌍 国外媒体
-  - RULE-SET,Global,🌍 国外媒体
-  - RULE-SET,ChinaDNS,🌍 国内媒体
-  - RULE-SET,ChinaDomain,🌍 国内媒体
-  - RULE-SET,ChinaCompanyIp,🌍 国内媒体
-  - RULE-SET,NetEaseMusic,🌍 国内媒体
+  - RULE-SET,Google,🌍 国外网络
+  - RULE-SET,Self,🌍 国外网络
+  - RULE-SET,Developer,🌍 国外网络
+  - RULE-SET,LingQ,🌍 国外网络
+  - RULE-SET,GitHub,🌍 国外网络
+  - RULE-SET,Twitter,🌍 国外网络
+  - RULE-SET,Cloudflare,🌍 国外网络
+  - RULE-SET,Amazon,🌍 国外网络
+  - RULE-SET,Facebook,🌍 国外网络
+  - RULE-SET,TikTok,🌍 国外网络
+  - RULE-SET,Instagram,🌍 国外网络
+  - RULE-SET,Jetbrains,🌍 国外网络
+  - RULE-SET,Spotify,🌍 国外网络
+  - RULE-SET,PayPal,🌍 国外网络
+  - RULE-SET,Discord,🌍 国外网络
+  - RULE-SET,BBC,🌍 国外网络
+  - RULE-SET,KODI,🌍 国外网络
+  - RULE-SET,portablesApps,🌍 国外网络
+  - RULE-SET,kaspersky,🌍 国外网络
+  - RULE-SET,GlobalMedia,🌍 国外网络
+  - RULE-SET,Global,🌍 国外网络
+  - RULE-SET,ChinaDNS,🌍 国内网络
+  - RULE-SET,ChinaDomain,🌍 国内网络
+  - RULE-SET,ChinaCompanyIp,🌍 国内网络
+  - RULE-SET,NetEaseMusic,🌍 国内网络
   - RULE-SET,AWAvenueAds,🛑 广告拦截
   - RULE-SET,BlockHttpDNS,🛑 广告拦截
   - RULE-SET,Hijacking,🛑 广告拦截
   - RULE-SET,ZhihuAds,🛑 广告拦截
   - GEOIP,CN,🎯 全球直连
-  - MATCH,🌍 国外媒体
+  - MATCH,🌍 国外网络
 
 
 rule-providers:
@@ -477,7 +477,7 @@ rule-providers:
     interval: 86400
     format: text
 
-  # 🌍 国外媒体
+  # 🌍 国外网络
   AI_perplexity:
     type: http
     behavior: classical
@@ -674,7 +674,7 @@ rule-providers:
     interval: 86400
     format: text
 
-  # 🌍 国外媒体
+  # 🌍 国外网络
   Google:
     type: http
     behavior: classical
@@ -823,7 +823,7 @@ rule-providers:
     interval: 86400
     format: text
 
-  # 🌍 国内媒体
+  # 🌍 国内网络
   ChinaDNS:
     type: http
     behavior: classical
