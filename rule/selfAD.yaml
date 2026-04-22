@@ -18,7 +18,7 @@ proxy-groups:
   - name: 💦静态代理
     type: select
     include-all: true
-    filter: '^(.*静态)'
+    filter: '^(.*静态|dmit|家庭)'
 
 
   - name: ✈️ 中转专线
@@ -27,7 +27,7 @@ proxy-groups:
       - 🚀 手动切换
       - DIRECT
     include-all: true
-    filter: '.*IEPL.*$|^(.*[2-9]x[0-9])'
+    filter: '.*IEPL.*$|^(.*[2-9]x[0-9])|dmit|高速'
 
 
 
@@ -94,7 +94,7 @@ proxy-groups:
       - DIRECT
 
 
-  - name: 🌍 国外媒体
+  - name: 🌍 国外网络
     type: select
     proxies:
       - 💦静态代理
@@ -134,7 +134,7 @@ proxy-groups:
 
 
 
-  - name: 🌍 国内媒体
+  - name: 🌍 国内网络
     type: select
     proxies:
       - DIRECT
