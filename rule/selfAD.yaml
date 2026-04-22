@@ -1,24 +1,11 @@
 
 proxy-groups:
-  - name: 🎣 Gomexus静态代理
-    type: select
-    proxies:
-      - 💦静态代理
-      - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇸🇬 狮城
-      - 🇯🇵 日本
-      - 🇺🇲 美国
-      - 🇰🇷 韩国
-      - 🚀 手动切换
-      - DIRECT
-  
-
   - name: 💦静态代理
     type: select
+    proxies:
+      - DIRECT
     include-all: true
-    filter: '^(.*静态|dmit|家庭)'
+    filter: '(IEPL$|[2-9]x[0-9]|dmit|高速|静态|家庭)'
 
 
   - name: ✈️ 中转专线
